@@ -1,6 +1,6 @@
-# .NET Minimal API Eğitim Projesi
+# .NET Core Minimal API
 
-Bu proje, .NET Minimal API'nin temel özelliklerini ve en iyi uygulamalarını göstermek için hazırlanmış bir eğitim projesidir. Her bir bölüm, modern web API geliştirmede önemli bir konuyu ele almaktadır.
+Bu proje, .NET Minimal API'nin temel özelliklerini ve en iyi uygulamalarını göstermek için hazırlanmış bir projedir. Her bir bölüm, modern web API geliştirmede önemli bir konuyu ele almaktadır.
 
 ## 🚀 Özellikler
 
