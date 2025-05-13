@@ -101,7 +101,7 @@ Bu proje, .NET Minimal API'nin temel özelliklerini ve en iyi uygulamalarını g
 
 ## 🛠️ Teknolojiler
 
-- .NET 7.0
+- .NET 8.0
 - Entity Framework Core
 - MySQL
 - AutoMapper
