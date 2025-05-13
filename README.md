@@ -150,5 +150,3 @@ dotnet run
     "Audience": "your_audience"
   }
 }
-
-Proje Linki: [https://github.com/yourusername/minimal-api](https://github.com/yourusername/minimal-api) 
