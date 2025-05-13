@@ -1,0 +1,6 @@
+@J_DI.Interfaces_HostAddress = http://localhost:5138
+
+GET {{J_DI.Interfaces_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

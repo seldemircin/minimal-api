@@ -1,0 +1,6 @@
+@ch_14_relations_HostAddress = http://localhost:5268
+
+GET {{ch_14_relations_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+1. Category entity eklendi.
+2. Book ile Category ilişkilendirildi.
+3. RepositoryBase eklenerek entityler için temel crud işlemleri tek bir merkezde generic olarak toplandı.
+4. CategoryRepository tanımlandı ve RepositoryBase'den kalıtım aldı.
+5. BookRepository içerisindeki Get ve GetAll metotları override edilerek özelleştirildi ve eager loading yapıldı.
+
+6. BookDtoBase tanımlaması yapılarak Book entitysi ile ilgili veri taşıma işlemlerinde yer alacak ortak özellikler belirlendi.
+7. BookDto tanımlaması güncellendi ve aynı zamanda servis içerisindeki metotlar da BookDto'ya göre düzenlendi.
+8. BookDto ile Book arasındaki dönüşümlerin yapılmabimesi için Mapper kaydı yapıldı.
+
+9. Validate kısmı servis içerisinde metod haline getirilerek kod tekrarı azaltıldı.

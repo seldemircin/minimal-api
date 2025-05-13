@@ -1,0 +1,6 @@
+@ch_15_identity_HostAddress = http://localhost:5250
+
+GET {{ch_15_identity_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

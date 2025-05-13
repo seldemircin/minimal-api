@@ -1,0 +1,9 @@
+namespace ch_13_configuration.Entities.Exceptions;
+
+public abstract class NotFoundException : Exception
+{
+    protected NotFoundException(string message) : base(message)
+    {
+
+    }
+}
