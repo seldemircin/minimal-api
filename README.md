@@ -150,22 +150,5 @@ dotnet run
     "Audience": "your_audience"
   }
 }
-```
-
-## 📝 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
-
-## 👥 Katkıda Bulunma
-
-1. Bu depoyu fork edin
-2. Feature branch'i oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add some amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
-
-## 📧 İletişim
-
-Proje Sahibi - [@yourusername](https://github.com/yourusername)
 
 Proje Linki: [https://github.com/yourusername/minimal-api](https://github.com/yourusername/minimal-api) 
