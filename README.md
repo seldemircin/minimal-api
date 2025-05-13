@@ -125,12 +125,17 @@ cd minimal-api
 dotnet restore
 ```
 
-4. Veritabanını oluşturun:
+4. Migration oluşturun:
+```bash
+dotnet ef migrations add mig_01
+```
+
+5. Veritabanını oluşturun:
 ```bash
 dotnet ef database update
 ```
 
-5. Uygulamayı çalıştırın:
+6. Uygulamayı çalıştırın:
 ```bash
 dotnet run
 ```
