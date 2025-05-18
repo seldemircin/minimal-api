@@ -1,91 +1,91 @@
 # .NET Core Minimal API
 
-Bu proje, .NET Minimal API'nin temel özelliklerini ve en iyi uygulamalarını göstermek için hazırlanmış bir projedir. Her bir bölüm, modern web API geliştirmede önemli bir konuyu ele almaktadır.
+This project has been prepared to demonstrate the basic features and best practices of .NET Minimal API. Each section addresses an important topic in modern web API development.
 
-## 🚀 Özellikler
+## 🚀 Features
 
-- Minimal API temelleri
-- Route handlers ve parametreler
-- HTTP durum kodları
-- Global hata yönetimi
-- CORS yapılandırması
-- Veri doğrulama
-- Bağımlılık enjeksiyonu
+- Minimal API fundamentals
+- Route handlers and parameters
+- HTTP status codes
+- Global error handling
+- CORS configuration
+- Data validation
+- Dependency injection
 - Repository pattern
-- AutoMapper entegrasyonu
+- AutoMapper integration
 - Entity Framework Core
 - ASP.NET Core Identity
 - JWT authentication
 
-## 📋 Bölümler
+## 📋 Sections
 
 1. **Hello World (ch_01_Hello)**
-   - Minimal API'ye giriş
-   - Temel endpoint yapısı
-   - Response modelleme
+    - Introduction to Minimal API
+    - Basic endpoint structure
+    - Response modeling
 
 2. **Route Handlers (ch_02_RouteHandlers)**
-   - Farklı handler türleri
-   - Lambda expressions
-   - Local functions
+    - Different handler types
+    - Lambda expressions
+    - Local functions
 
 3. **Route Parameters (ch_03_RouteParameters)**
-   - Route parametreleri
-   - Query string parametreleri
-   - Model binding
+    - Route parameters
+    - Query string parameters
+    - Model binding
 
 4. **Status Codes (ch_04_StatusCodes)**
-   - HTTP durum kodları
-   - Results sınıfı
-   - Response yönetimi
+    - HTTP status codes
+    - Results class
+    - Response management
 
 5. **Global Error Handler (ch_05_GlobalErrorHandler)**
-   - Exception handling
-   - Custom exceptions
-   - Error response modelleme
+    - Exception handling
+    - Custom exceptions
+    - Error response modeling
 
 6. **CORS (ch_06_Cors)**
-   - CORS yapılandırması
-   - Policy tanımları
-   - Middleware kullanımı
+    - CORS configuration
+    - Policy definitions
+    - Middleware usage
 
 7. **Validation (ch_07_Validation)**
-   - Data annotations
-   - Model validation
-   - Custom validation
+    - Data annotations
+    - Model validation
+    - Custom validation
 
 8. **Dependency Injection (ch_08_DependencyInjection)**
-   - Service registration
-   - Constructor injection
-   - Lifetime management
+    - Service registration
+    - Constructor injection
+    - Lifetime management
 
 9. **DI with Interfaces (ch_09_DI_Interfaces)**
-   - Interface-based programming
-   - Loose coupling
-   - Service abstraction
+    - Interface-based programming
+    - Loose coupling
+    - Service abstraction
 
 10. **Data Access Layer (ch_10_dal)**
     - Entity Framework Core
-    - DbContext yapılandırması
+    - DbContext configuration
     - Repository pattern
 
 11. **Repository in Use (ch_11_repo_in_use)**
     - Generic repository
-    - CRUD operasyonları
+    - CRUD operations
     - Service layer
 
 12. **AutoMapper (ch_12_auto_mapper)**
     - DTO pattern
     - Object mapping
-    - Profile yapılandırması
+    - Profile configuration
 
 13. **Configuration (ch_13_configuration)**
     - Extension methods
-    - Middleware yapılandırması
+    - Middleware configuration
     - Service configuration
 
 14. **Relations (ch_14_relations)**
-    - Entity ilişkileri
+    - Entity relationships
     - Eager loading
     - Navigation properties
 
@@ -99,7 +99,7 @@ Bu proje, .NET Minimal API'nin temel özelliklerini ve en iyi uygulamalarını g
     - Token management
     - Refresh token
 
-## 🛠️ Teknolojiler
+## 🛠️ Technologies
 
 - .NET 8.0
 - Entity Framework Core
@@ -108,41 +108,41 @@ Bu proje, .NET Minimal API'nin temel özelliklerini ve en iyi uygulamalarını g
 - ASP.NET Core Identity
 - JWT
 
-## 📦 Kurulum
+## 📦 Installation
 
-1. Projeyi klonlayın:
+1. Clone the project:
 ```bash
-git clone https://github.com/yourusername/minimal-api.git
+git clone [https://github.com/yourusername/minimal-api.git](https://github.com/yourusername/minimal-api.git)
 ```
 
-2. Proje dizinine gidin:
+2. Navigate to the project directory:
 ```bash
 cd minimal-api
 ```
 
-3. Bağımlılıkları yükleyin:
+3. Install dependencies:
 ```bash
 dotnet restore
 ```
 
-4. Migration oluşturun:
+4. Create migrations:
 ```bash
 dotnet ef migrations add mig_01
 ```
 
-5. Veritabanını oluşturun:
+5. Create the database:
 ```bash
 dotnet ef database update
 ```
 
-6. Uygulamayı çalıştırın:
+6. Run the application:
 ```bash
 dotnet run
 ```
 
-## 🔧 Yapılandırma
+## 🔧 Configuration
 
-`appsettings.json` dosyasında aşağıdaki ayarları yapılandırın:
+Configure the following settings in the `appsettings.json` file:
 
 ```json
 {
@@ -155,3 +155,4 @@ dotnet run
     "Audience": "your_audience"
   }
 }
+```
